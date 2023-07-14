@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script type="text/javascript">
+		function checkpassword() {
+			var password = document.getElementById("passwordbox")
+			var passwordText = password.value;
+			if (passwordText == "Seby") {
+				return true;
+			
+		}
+		else{
+			alert("Access Denied Fool!")
+			return false;
+			}
+
+		}
+	
+	</script>
+	<title> Password </title>
+</head>
+<body>
+
+	<p style="font-size: 50px;"> Welcome! </p>
+	<p> Please enter your passowrd to begin! </p>
+	<p> Password: <input id="passwordbox" type="password"> </p>
+	<a href="Sebastianpage1.html" onclick=" return checkpassword();"> Enter </a>
+
+ 
+</body>
+</html>
